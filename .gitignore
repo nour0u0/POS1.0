@@ -1,0 +1,37 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Databases and local app data
+DB/*.sqlite
+DB/*.sqlite3
+DB/*.db
+DB/*.db-journal
+
+# Keep the project database tracked
+!DB/DataBase.sqlite
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
